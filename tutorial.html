@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<title>Tutorial</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Prueba del tutorial de W3Schools">
+	<meta name="keywords" content="Prueba, Tutorial, Sencillo">
+	<meta name="author" content="Alexis Santillan">
+	<meta http-equiv="refresh" content="15">
+	<!--Debería agregar un viewport
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> completar
+	-->
+	<style>
+		body{font-family: Calibri;}
+		header{ 
+			background-color:#668;
+			text-align:center;
+			font-size: 30px;
+			padding-bottom:1px;
+			border:solid powderblue;
+			}
+		a:visited{
+			color:red;
+		}
+		a:active {
+			color: yellow;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+		.Numerodia{	
+			text-align: center;
+			background-color: #ccc;
+			padding:1px;
+		}
+	</style>
+	<script>
+		document.getElementById("random").innerHTML = Math.floor(Math.random()*100000);
+		function nuevoNum(){
+			document.getElementById("random").innerHTML = Math.floor(Math.random()*100000);
+		}
+	</script>
+	
+</head>
+	
+<body style="background-color:#F3E5AB;">
+	
+	
+	<header>
+		<a href="memes.html" target="video"><img src="img/logo.png" alt="Logo" align=left width="130" height="110"></a>
+		<h1>Página de pruebas</h1>
+	</header>
+
+	<nav id="nDia" style="float: left; width:5%; background: #ccc; padding:2px"> 
+		<div class="Numerodia">
+			<p>Numero del día:</p>
+			<p id="random" style="background-color:#ccc"> </p>
+			<button  onclick="nuevoNum()">Nuevo numero del día</button>
+		</div>
+	</nav>
+	<iframe title="Prueba de iframe con video" name="video" style="float: right;width 20%; border: none;"
+	src="paginadepruebas.html"  width="290" height="217"></iframe>
+
+	
+		<h1>Explicación</h1>
+		<p>En esta página solo hay un monton de pruebas del tutorial de html de 
+			<a href="https://www.w3schools.com/html/">w3schools<a>, por lo que no tiene una verdadera finalidad.
+		</p>
+		<p title="Contenido">A la derecha podemos ver un iframe a otro documento .html cuyo único contenido es el de un video,
+		y a la izquierda <del>o encima dependiendo del tamaño de la ventana</del> hay un nav con una función de javascript.</p>
+
+</body>
+
+
+
+
+
+
+</html>
+
