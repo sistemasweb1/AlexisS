@@ -1,0 +1,128 @@
+Exercise 1
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:yellow;}
+h1   {color:blue;}
+p    {color:black;}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:lightgrey;}
+h1   {color:blue;font-family:courier;}
+p    {color:black;font-family:courier;}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+Exercise 3
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:lightgrey;}
+p {color:red;}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is also paragraph.</p>
+<p>This is a third paragraph.</p>
+
+</body>
+</html>
+
+Exercise 4
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:lightgrey;}
+h1   {color:blue;}
+p    {color:black;border:1px solid red}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+Exercise 5
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p#special {
+    background-color:black;
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is also paragraph.</p>
+<p id="special">I want to be a special paragraph!</p>
+
+</body>
+</html>
+
+Exercise 6
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.intro {
+    background-color:black;
+    color:white;
+    border:1px solid grey;
+    padding:10px;
+    margin:30px;
+    font-size:150%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p class="intro">This is a paragraph.</p>
+<p class="intro">This is a paragraph.</p>
+<p class="intro">This is a paragraph.</p>
+
+</body>
+</html>
