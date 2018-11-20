@@ -1,0 +1,66 @@
+Exercise 1
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Universal Studios Presents</h1>
+
+<h2>Jurassic Park</h2>
+
+<h3>About</h3>
+
+<p>On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!
+</p>
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is a Heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+My Bonnie lies over the ocean.<br>
+My Bonnie lies over the sea.<br>
+My Bonnie lies<br> over the ocean.
+Oh, bring back my Bonnie to me.
+</p>
+
+</body>
+</html>
+
+Exercise 4
+<!DOCTYPE html>
+<html>
+<body>
+
+<pre>
+
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+
+   Oh, bring back my Bonnie to me.
+
+</pre>
+
+</body>
+</html>

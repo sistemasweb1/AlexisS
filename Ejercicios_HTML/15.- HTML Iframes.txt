@@ -1,0 +1,43 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="https://www.w3schools.com"></iframe>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="https://www.w3schools.com" width="500"></iframe>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="https://www.w3schools.com" style="border:none"></iframe>
+
+</body>
+</html>
+
+Exercise 4
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="https://www.w3schools.com" style="border:medium solid red"></iframe>
+
+</body>
+</html>

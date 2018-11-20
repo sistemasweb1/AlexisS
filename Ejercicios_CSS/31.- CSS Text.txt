@@ -1,0 +1,61 @@
+Exercise 1 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+</style>
+</head>
+<body>
+
+<p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    width: 150px; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+
+<p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    width: 150px; 
+    border: 1px solid #000000;
+    word-break: break-all;
+}
+</style>
+</head>
+<body>
+
+<p>This paragraph contains a very long word: super-cali-fragi-listic-expialidocious.</p>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+<p>Hover over the div element above.</p>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+div:hover {
+    width: 300px;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+<p>Hover over the div element above.</p>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-delay: 0.5s;
+}
+
+div:hover {
+    width: 300px;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+<p>Hover over the div element above.</p>
+
+</body>
+</html>
+
+Exercise 4
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: background 2s, transform 2s;
+}
+
+div:hover {
+    background: blue;
+    transform: rotate(180deg);
+}
+</style>
+</head>
+<body>
+<div></div>
+
+<p>Hover over the div element above.</p>
+
+</body>
+</html>
+
+
+Exercise 5
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s ease-in-out 0.5s;
+}
+
+div:hover {
+    width: 400px;
+}
+</style>
+</head>
+<body>
+<div></div>
+
+<p>Hover over the div element above.</p>
+
+</body>
+</html>

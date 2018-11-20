@@ -1,0 +1,101 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul>
+  <li>Coffee</li>
+</ul>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul style="list-style-type:square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+</body>
+</html>
+
+Exercise 4
+<!DOCTYPE html>
+<html>
+<body>
+
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+</body>
+</html>
+
+Exercise 5
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+</body>
+</html>
+
+Exercise 6
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu li {
+    float:left;
+}
+</style>
+</head>
+<body>
+
+<ul id="menu">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ul>  
+
+</body>
+</html>
