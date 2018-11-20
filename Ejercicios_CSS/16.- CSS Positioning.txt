@@ -1,0 +1,126 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    position: relative;
+    top: 30px;
+    left: -20px;
+    color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+Exercise 4
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<img src="w3css.gif" width="100" height="140">
+
+</body>
+</html>
+
+Exercise 5
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="img_5terre.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="topleft">Top Left</div>
+</div>
+
+</body>
+</html>

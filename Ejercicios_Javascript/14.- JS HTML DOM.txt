@@ -1,0 +1,65 @@
+Exercise 1
+
+<p id="demo"><p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello"";
+</script>
+
+Exercise 2
+
+<p id="demo"><p>
+
+<script>
+document.getElementsByTagName("p")[0].innerHTML = "Hello";
+</script>
+
+Exercise 3
+<p class="test"><p>
+<p class="test"><p>
+
+<script>
+document.getElementsByClassName("test")[0].innerHTML = "Hello";
+</script>
+
+Exercise 4
+<img id="image" src="smiley.gif"><p>
+
+<script>
+document.getElementById("image").src = "pic_mountain.jpg";
+</script>
+
+Exercise 5
+<input type="text" id="myText" value="Hello"><p>
+
+<script>
+document.getElementById("myText").value = "Hello";
+</script>
+
+Exercise 6
+<p id="demo"><p>
+
+<script>
+document.getElementById("demo").style.color = "red";
+</script>
+
+Exercise 7
+<p id="demo"><p>
+
+<script>
+document.getElementById("demo").style.fontSize = "40px";
+</script>
+
+Exercise 8
+<p id="demo"><p>
+
+<script>
+document.getElementById("demo").style.display = "none";
+</script>
+
+Exercise 9
+<button id="demo">Click me1<button>
+
+<script>
+document.getElementById("demo").addEventListener("click", myFunction);
+</script>

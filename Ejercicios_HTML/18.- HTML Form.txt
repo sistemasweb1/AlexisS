@@ -1,0 +1,53 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form> <input type="button" value="OK"> </form>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+</form>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+Name: <input type="text" name="name">
+<input type="submit">
+</form>
+
+</body>
+</html>
+
+Exercise 4
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php" method="post">
+Name: <input type="text" name="name">
+<input type="submit">
+</form>
+
+</body>
+</html>

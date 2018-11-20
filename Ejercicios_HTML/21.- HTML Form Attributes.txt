@@ -1,0 +1,55 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  First name: <input type="text" name="firstname" value="John">
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  First name: <input type="text" name="firstname" value="John" disabled>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  First name: <input type="text" name="firstname" value="John" size="40">
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+Exercise 4
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  <input type="text" name="fname" placeholder="First name">
+  <input type="submit">
+</form>
+
+</body>
+</html>

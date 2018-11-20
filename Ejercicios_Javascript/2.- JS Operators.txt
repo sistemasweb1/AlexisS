@@ -1,0 +1,23 @@
+Exercise 1
+
+alert(10 * 5);
+
+Exercise 2
+
+alert(10 / 2);
+
+Exercise 3
+
+alert(15 % 9);
+
+Exercise 4
+
+x = 10;
+y = 5;
+x += y;
+
+Exercise 5
+
+x = 10;
+y = 5;
+x *= y;

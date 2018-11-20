@@ -1,0 +1,80 @@
+Exercise 1
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+   background-color: rgba(0,255,0,0.3);
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+Exercise 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+   background-color: hsl(0,100%,50%);
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+Exercise 3
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    background-color: hsla(0,100%,50%,0.3);
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+Exercise 4 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    background-color: red;
+    opacity: 0.4;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
